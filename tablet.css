@@ -1,0 +1,25 @@
+@media screen and (min-width: 768px) {
+.container {
+  width: 768px;
+}
+.hero {
+  padding-top: 111px;
+  padding-bottom: 108px;
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  max-width: 500px;
+  margin-bottom: 40px;
+}
+.features-item {
+  width: calc((100% - 24px) / 2);
+}
+.features-list {
+  column-gap: 24px;
+  row-gap: 72px;
+}
+.features-subtitle {
+  text-align: left;
+}
+}
