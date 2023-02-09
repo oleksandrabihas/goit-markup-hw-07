@@ -147,7 +147,6 @@ img {
       rgba(46, 47, 66, 0.7)
     ),
     url(./images/hero-bg.jpg);
-  /* width: 1440px; */
   width: 100%;
   background-position: 50% 50%;
   background-size: cover;
@@ -248,6 +247,7 @@ img {
 }
 /* ---------What we are doing---------- */
 .section-we-do {
+  margin: 0 auto;
   padding-bottom: 117px;
 }
 .we-do-item {
@@ -270,6 +270,7 @@ img {
   background: #f4f4fd;
   padding-top: 120px;
   padding-bottom: 120px;
+  margin: 0 auto;
 }
 .team-card {
   background: #ffffff;
@@ -338,6 +339,7 @@ img {
 .customers {
   padding-top: 130px;
   padding-bottom: 120px;
+  margin: 0 auto;
 }
 .customers-title {
   font-size: 36px;
@@ -381,6 +383,7 @@ img {
 
 /* ---------FOOTER---------- */
 .footer {
+  margin: 0 auto;
   background: var(--first-text-color);
   padding-top: 100px;
   padding-bottom: 100px;
@@ -508,6 +511,7 @@ img {
 /* ----PORTFOLIO-CARDS----- */
 
 .section-potfolio {
+  margin: 0 auto;
   padding-top: 96px;
   padding-bottom: 120px;
 }
