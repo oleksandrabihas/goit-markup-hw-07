@@ -1,8 +1,9 @@
 @media screen and (min-width: 1200px) {
-.container {
+.container, 
+.container.container-mini {
   width: 1160px;
-  /* padding-right: 156px;
-  padding-left: 156px; */
+  padding-right: 16px;
+  padding-left: 16px;
 }
 .hero {
   width: 1440px;
@@ -11,5 +12,49 @@
 }
 .hero-title {
   margin-bottom: 48px;
+}
+/* ------------OUR FEATURES--------- */
+.features-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+}
+.features-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.features-item {
+  width: calc((100% - 72px) / 4);
+}
+.features-item::before {
+  display: block;
+  margin-bottom: 8px;
+}
+/* ---------What we are doing---------- */
+.section-we-do {
+  display: block;
+}
+/* ------------TEAM CARD---------- */
+.section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.team-card {
+  width: calc((100% - 72px) / 4);
+}
+.team-list {
+  gap: 24px;
+}
+/* --------CUSTOMERS--------- */
+.customers {
+  padding-top: 130px;
+  padding-bottom: 120px;
+}
+
+
+
+.customers-item {
+  width: calc((100% - 120px) / 6);
 }
 }

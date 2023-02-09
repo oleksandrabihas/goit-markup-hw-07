@@ -12,6 +12,7 @@
   max-width: 500px;
   margin-bottom: 40px;
 }
+/* ------------OUR FEATURES--------- */
 .features-item {
   width: calc((100% - 24px) / 2);
 }
@@ -22,4 +23,21 @@
 .features-subtitle {
   text-align: left;
 }
+/* ------------TEAM CARD---------- */
+.section-team {
+  padding-bottom: 104px; 
+}
+.container.container-mini {
+padding-left: 108px;
+padding-right: 108px;
+}
+.team-list {
+  column-gap: 24px;
+  row-gap: 72px;
+}
+.team-card {
+  min-width: 264px;
+  width: calc((100% - 24px) / 2);
+}
+/* --------CUSTOMERS--------- */
 }

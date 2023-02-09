@@ -6,12 +6,21 @@
   font-size: 36px;
   max-width: 320px;
 }
+/* ------------OUR FEATURES--------- */
 .features-subtitle {
   font-size: 36px;
 }
 .features-text {
   font-size: 16px;
 }
-
+/* ------------TEAM CARD---------- */
+.container.container-mini {
+padding-left: 82px;
+padding-right: 82px;
+}
+/* --------CUSTOMERS--------- */
+.customers-link {
+  padding: 16px 40px;
+}
 
 }
