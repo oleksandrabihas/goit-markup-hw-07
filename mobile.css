@@ -23,4 +23,12 @@ padding-right: 82px;
   padding: 16px 40px;
 }
 /* ---------FOOTER---------- */
+.footer-container1 {
+  padding-left: 64px;
+  padding-right: 64px;
+}
+.footer-input {
+  min-width: 396px;
+}
+
 }

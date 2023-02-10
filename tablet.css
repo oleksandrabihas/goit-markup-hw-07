@@ -50,4 +50,29 @@ padding-right: 108px;
   width: calc((100% - 48px) / 3);
 }
 /* ---------FOOTER---------- */
+.footer-container1 {
+  padding: 0;
+}
+.footer-column {
+  column-gap: 24px;
+  justify-content: start;
+  padding-left: 108px;
+}
+.footer-input-container {
+  justify-content: start;
+  gap: 24px;
+}
+.footer-text {
+max-width: 264px;
+}
+.footer .logo {
+  display: inline-block;
+}
+.footer-input {
+  min-width: 264px;
+}
+.footer-modal-text {
+  margin-left: 0;
+  margin-right: auto;
+}
 }
