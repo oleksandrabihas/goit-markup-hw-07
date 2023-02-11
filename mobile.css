@@ -6,6 +6,31 @@
   font-size: 36px;
   max-width: 320px;
 }
+/* ------------MOB_MENU-------------- */
+.mob-menu {
+  padding: 40px;
+}
+.navigation-mob-link {
+font-size: 36px;
+}
+.navigation-mob-item {
+margin-bottom: 40px;
+}
+.address-mob-tell {
+  font-size: 36px;
+}
+.address-mob-item:not(:last-child) {
+  margin-bottom: 40px;
+}
+.address-mob-list {
+  margin-bottom: 48px;
+}
+.mob-soc-list {
+  display: flex;
+  gap: 56px;
+}
+
+
 /* ------------OUR FEATURES--------- */
 .features-subtitle {
   font-size: 36px;
