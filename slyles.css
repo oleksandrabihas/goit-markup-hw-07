@@ -616,10 +616,7 @@ img {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.filters-btn-current {
-  background-color: var(--active-color);
-  color: #ffffff;
-}
+
 .filters-btn:focus,
 .filters-btn:hover {
   color: #ffffff;
