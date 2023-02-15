@@ -168,12 +168,15 @@
     margin-bottom: 64px;
   }
   .portfolio-item {
-    flex-basis: calc((100% - 24) / 2);
+   flex-basis: calc((100% - 24px) / 2); 
 
-    max-width: 356px;
   }
   .portfolio-list {
+    justify-content: start;
     column-gap: 24px;
     row-gap: 72px;
+  }
+  .portfolio-item:last-child {
+    margin-left: 0;
   }
 }

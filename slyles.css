@@ -645,6 +645,7 @@ img {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 48px;
 }
 .card-container {
@@ -654,9 +655,6 @@ img {
 }
 .portfolio-item {
   width: 100%;
-  max-width: 288px;
-  margin-left: auto;
-  margin-right: auto;
 }
 .portfolio-link {
   width: 100%;
