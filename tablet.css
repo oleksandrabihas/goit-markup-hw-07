@@ -2,6 +2,7 @@
   .container {
     max-width: 768px;
   }
+  /* --------------HEADER------------- */
   .header {
     padding-bottom: 9px;
   }
@@ -23,9 +24,10 @@
   .address {
     margin-left: auto;
   }
-  .address-list {
-    display: none;
-  }
+  .navigation-list,
+  .address {
+  display: block;
+}
   .address-item > a {
     font-style: normal;
     font-weight: 400;
@@ -41,6 +43,7 @@
     color: var(--active-color);
   }
   .current {
+    color: var(--active-color);
     position: relative;
   }
   .current::after {
@@ -63,14 +66,11 @@
     display: flex;
     gap: 40px;
   }
-  .address-list {
-    display: block;
-  }
   .navigation {
     display: flex;
     align-items: center;
   }
-
+/* -------------HERO----------- */
   .hero {
     padding-top: 111px;
     padding-bottom: 108px;
@@ -109,7 +109,7 @@
     row-gap: 72px;
   }
   .team-card {
-    min-width: 264px;
+  
     width: calc((100% - 24px) / 2);
   }
   /* --------CUSTOMERS--------- */
@@ -168,15 +168,12 @@
     margin-bottom: 64px;
   }
   .portfolio-item {
-   flex-basis: calc((100% - 24px) / 2); 
-
+    flex-basis: calc((100% - 24px) / 2);
   }
   .portfolio-list {
     justify-content: start;
     column-gap: 24px;
     row-gap: 72px;
   }
-  .portfolio-item:last-child {
-    margin-left: 0;
-  }
+
 }

@@ -2,6 +2,7 @@
 .container {
   max-width: 428px;
 }
+/* -------------HERO----------- */
 .hero {
     background-image: var(--gradient),
     url(./images/hero-bg-tablet.jpg);
@@ -38,7 +39,6 @@ margin-bottom: 40px;
   margin-bottom: 48px;
 }
 .mob-soc-list {
-  display: flex;
   gap: 56px;
 }
 /* ------------OUR FEATURES--------- */
