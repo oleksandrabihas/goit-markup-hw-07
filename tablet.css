@@ -127,21 +127,17 @@
     width: calc((100% - 48px) / 3);
   }
   /* ---------FOOTER---------- */
-  .footer-container1 {
-    padding: 0;
-  }
+  
   .footer-column {
     column-gap: 24px;
     justify-content: start;
-    padding-left: 108px;
+    align-items: normal;
   }
   .footer-input-container {
     justify-content: start;
     gap: 24px;
   }
-  .footer-text {
-    max-width: 264px;
-  }
+ 
   .footer .logo {
     display: inline-block;
   }
